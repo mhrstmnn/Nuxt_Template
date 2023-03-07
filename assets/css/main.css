@@ -8,19 +8,21 @@
   }
 }
 
+@font-face {
+  font-family: 'Golos Text';
+  src: url('@/assets/fonts/Golos_Text/GolosText-VariableFont_wght.ttf')
+    format(truetype) tech(variations);
+}
+
 html {
   color-scheme: var(--color-scheme);
+  font-family: 'Golos Text';
 }
 
 html > body #__nuxt {
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 100vh;
-}
-
-@font-face {
-  font-family: 'Golos Text';
-  src: url('@/assets/fonts/Golos_Text/GolosText-VariableFont_wght.ttf')
-    format(truetype) tech(variations);
+  align-items: center;
+  text-align: center;
 }
