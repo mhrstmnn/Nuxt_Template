@@ -1,5 +1,15 @@
+<script setup lang="ts">
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} – Nuxt` : 'Nuxt'
+  },
+})
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    <AppHeader />
+    <NuxtPage />
+    <AppFooter />
   </div>
 </template>
