@@ -10,8 +10,7 @@
 
 @font-face {
   font-family: 'Golos Text';
-  src: url('@/assets/fonts/Golos_Text/GolosText-VariableFont_wght.ttf')
-    format(truetype) tech(variations);
+  src: url('@/assets/fonts/Golos_Text/GolosText-VariableFont_wght.ttf');
 }
 
 html {
