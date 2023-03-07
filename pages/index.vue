@@ -3,5 +3,5 @@ useHead({ title: 'Index' })
 </script>
 
 <template>
-  <HelloWorld name="Michael" />
+  <HelloWorld name="von Michael" />
 </template>
