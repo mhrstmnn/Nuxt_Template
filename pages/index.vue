@@ -1,5 +1,6 @@
 <script setup lang="ts">
-useHead({ title: 'Index' })
+const title = 'Index'
+useHead({ title })
 </script>
 
 <template>

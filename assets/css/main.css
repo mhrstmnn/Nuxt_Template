@@ -10,7 +10,13 @@
 
 @font-face {
   font-family: 'Golos Text';
-  src: url('@/assets/fonts/Golos_Text/GolosText-VariableFont_wght.ttf');
+  src: url('@/assets/fonts/Golos_Text/GolosText-VariableFont_wght.ttf'),
+    url('@/assets/fonts/Golos_Text/static/GolosText-Regular.ttf'),
+    url('@/assets/fonts/Golos_Text/static/GolosText-Medium.ttf'),
+    url('@/assets/fonts/Golos_Text/static/GolosText-SemiBold.ttf'),
+    url('@/assets/fonts/Golos_Text/static/GolosText-Bold.ttf'),
+    url('@/assets/fonts/Golos_Text/static/GolosText-ExtraBold.ttf'),
+    url('@/assets/fonts/Golos_Text/static/GolosText-Black.ttf');
 }
 
 html {
@@ -24,4 +30,8 @@ html > body #__nuxt {
   min-height: 100vh;
   align-items: center;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
 }

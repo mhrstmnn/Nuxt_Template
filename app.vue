@@ -1,7 +1,8 @@
 <script setup lang="ts">
+const title = 'Nuxt'
 useHead({
   titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} – Nuxt` : 'Nuxt'
+    return titleChunk ? `${titleChunk} – ${title}` : title
   },
 })
 </script>
@@ -17,9 +18,5 @@ useHead({
 <style>
 #app {
   font-size: 1.5rem;
-}
-
-#app a {
-  text-decoration: none;
 }
 </style>
