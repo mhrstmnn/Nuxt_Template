@@ -34,4 +34,6 @@ html > body #__nuxt {
 
 a {
   text-decoration: none;
+  color: #3366cc;
+  cursor: pointer;
 }
