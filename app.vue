@@ -10,7 +10,9 @@ useHead({
 <template>
   <div id="app">
     <AppHeader />
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
     <AppFooter />
   </div>
 </template>
