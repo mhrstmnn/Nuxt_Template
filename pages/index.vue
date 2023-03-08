@@ -4,5 +4,8 @@ useHead({ title })
 </script>
 
 <template>
-  <HelloWorld name="von Michael" />
+  <div>
+    <!-- <h2>{{ title }}</h2> -->
+    <HelloWorld name="von Michael" />
+  </div>
 </template>
