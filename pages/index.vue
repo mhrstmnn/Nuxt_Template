@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const title = 'Index'
+const title = 'Startseite'
 useHead({ title })
 </script>
 
