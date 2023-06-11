@@ -8,20 +8,9 @@
   }
 }
 
-@font-face {
-  font-family: 'Golos Text';
-  src: url('@/assets/fonts/Golos_Text/GolosText-VariableFont_wght.ttf'),
-    url('@/assets/fonts/Golos_Text/static/GolosText-Regular.ttf'),
-    url('@/assets/fonts/Golos_Text/static/GolosText-Medium.ttf'),
-    url('@/assets/fonts/Golos_Text/static/GolosText-SemiBold.ttf'),
-    url('@/assets/fonts/Golos_Text/static/GolosText-Bold.ttf'),
-    url('@/assets/fonts/Golos_Text/static/GolosText-ExtraBold.ttf'),
-    url('@/assets/fonts/Golos_Text/static/GolosText-Black.ttf');
-}
-
 html {
   color-scheme: var(--color-scheme);
-  font-family: 'Golos Text';
+  font-family: system-ui;
 }
 
 html > body #__nuxt {
