@@ -1,0 +1,12 @@
+/.husky/**
+
+/.gitignore
+/.prettierignore
+
+/.editorconfig
+/.npmrc
+
+/bun.lockb
+
+**/*.ico
+**/*.txt
