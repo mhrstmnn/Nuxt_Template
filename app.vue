@@ -1,9 +1,8 @@
 <script setup lang="ts">
 const title = 'Nuxt'
 useHead({
-  titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} – ${title}` : title
-  },
+  titleTemplate: (titleChunk) =>
+    titleChunk ? `${titleChunk} – ${title}` : title,
 })
 </script>
 
