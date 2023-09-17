@@ -5,7 +5,7 @@ export default defineNuxtConfig({
       htmlAttrs: { lang: 'de' },
     },
   },
-  css: ['normalize.css', '@/assets/css/main.css'],
+  css: ['normalize.css', '~/assets/css/main.css'],
   runtimeConfig: {
     public: {
       domain: process.env.NUXT_DOMAIN || 'https://example.com',
