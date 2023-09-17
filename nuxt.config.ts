@@ -11,4 +11,5 @@ export default defineNuxtConfig({
       domain: process.env.NUXT_DOMAIN || 'https://example.com',
     },
   },
+  modules: ['@unocss/nuxt'],
 })
