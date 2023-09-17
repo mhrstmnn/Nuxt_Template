@@ -1,5 +1,11 @@
 <template>
   <header>
-    <h1>Nuxt</h1>
+    <h1><NuxtLink to="/">Nuxt</NuxtLink></h1>
   </header>
 </template>
+
+<style scoped>
+header > h1 > a {
+  color: unset;
+}
+</style>

@@ -1,11 +1,5 @@
-<script setup lang="ts">
-const title = 'Startseite'
-useHead({ title })
-</script>
-
 <template>
-  <div>
-    <!-- <h2>{{ title }}</h2> -->
-    <HelloWorld name="von Michael" />
-  </div>
+  <!-- <h2>Startseite</h2> -->
+  <HelloWorld name="von Michael" />
+  <NuxtLink to="/test">Testseite &rarr;</NuxtLink>
 </template>

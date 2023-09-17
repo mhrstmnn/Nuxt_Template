@@ -3,13 +3,12 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'de' },
-      // title: '',
-      meta: [
-        // { name: 'description', content: '' },
-        // { name: 'keywords', content: '' },
-        { name: 'author', content: 'Michael Horstmann' },
-      ],
     },
   },
   css: ['normalize.css', '@/assets/css/main.css'],
+  runtimeConfig: {
+    public: {
+      domain: process.env.NUXT_DOMAIN || 'https://example.com',
+    },
+  },
 })
