@@ -9,6 +9,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^3.3.0",
     "@unocss/nuxt": "^0.57.1",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
