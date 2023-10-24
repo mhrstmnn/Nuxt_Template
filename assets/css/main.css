@@ -1,28 +1,36 @@
 :root {
-  --color-scheme: light;
+  --link-color: #3366cc;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-scheme: dark;
-  }
+html.light > body {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+html.dark > body {
+  background-color: #091a28;
+  color: #ebf4f1;
+}
+
+html.sepia > body {
+  background-color: #f1e7d0;
+  color: #433422;
 }
 
 html {
-  color-scheme: var(--color-scheme);
   font-family: system-ui;
-}
 
-html > body #__nuxt {
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  align-items: center;
-  text-align: center;
-}
+  & a {
+    text-decoration: none;
+    color: var(--link-color);
+    cursor: pointer;
+  }
 
-a {
-  text-decoration: none;
-  color: #3366cc;
-  cursor: pointer;
+  & > body > #__nuxt {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+  }
 }
