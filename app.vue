@@ -24,9 +24,9 @@ useSeoMeta({
   ogUrl: url,
   ogType: 'website',
   ogLocale: 'de_DE',
-  ogImage: `${config.public.domain}/og_image.png`,
+  /* ogImage: `${config.public.domain}/og_image.png`,
   ogImageType: 'image/png',
-  twitterCard: 'summary_large_image',
+  twitterCard: 'summary_large_image', */
   twitterCreator: '@mhrstmnn',
   author: 'Michael Horstmann',
 })
