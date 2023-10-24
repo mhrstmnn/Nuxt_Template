@@ -1,20 +1,17 @@
 :root {
   --link-color: #3366cc;
+  --dark-background-color: rgb(16, 15, 15);
+  --primary-color: orange;
 }
 
 html.light > body {
-  background-color: #fff;
-  color: rgba(0, 0, 0, 0.8);
+  background-color: white;
+  color: black;
 }
 
 html.dark > body {
-  background-color: #091a28;
-  color: #ebf4f1;
-}
-
-html.sepia > body {
-  background-color: #f1e7d0;
-  color: #433422;
+  background-color: var(--dark-background-color);
+  color: white;
 }
 
 html {
