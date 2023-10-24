@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const config = useRuntimeConfig()
 
-const title = 'Nuxt'
-const description = 'Eine weitere mit Nuxt erstellte Website'
+const title = 'Nuxt Starter'
+const description = 'Starter template for new Nuxt projects'
 const url = config.public.domain
 
 useHead({
@@ -44,6 +44,6 @@ useSeoMeta({
 
 <style>
 #app {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 </style>

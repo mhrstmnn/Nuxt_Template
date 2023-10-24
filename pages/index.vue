@@ -1,5 +1,5 @@
 <template>
   <!-- <h2>Startseite</h2> -->
-  <HelloWorld name="von Michael" />
-  <NuxtLink to="/test">Testseite &rarr;</NuxtLink>
+  <p>Starter template for new Nuxt projects</p>
+  <NuxtLink to="/test">Testseite anzeigen</NuxtLink> &rarr;
 </template>

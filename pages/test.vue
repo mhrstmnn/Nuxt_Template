@@ -26,6 +26,7 @@ useSeoMeta({
 
 <template>
   <!-- <h2>{{ title }}</h2> -->
-  <p>{{ description }}</p>
-  <NuxtLink to="/">&larr; Startseite</NuxtLink>
+  <!-- <p>{{ description }}</p> -->
+  <HelloWorld name="von Michael" />
+  &larr; <NuxtLink to="/">Zurück zur Startseite</NuxtLink>
 </template>

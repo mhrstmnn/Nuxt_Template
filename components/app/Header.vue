@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1><NuxtLink to="/">Nuxt</NuxtLink></h1>
+    <h1><NuxtLink to="/">Nuxt Starter</NuxtLink></h1>
   </header>
 </template>
 

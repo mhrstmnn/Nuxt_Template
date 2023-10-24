@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const title = 'Nuxt'
+const title = 'Nuxt Starter'
 useHead({ title: `Fehler – ${title}` })
 
 const props = defineProps({
@@ -32,10 +32,7 @@ const handleError = () => clearError({ redirect: '/' })
     <div id="error">
       <h2>{{ errorMessage.title }}</h2>
       <p>{{ errorMessage.paragraph }}</p>
-      <p class="back">
-        &larr;
-        <a @click="handleError()">Zurück zur Startseite</a>
-      </p>
+      <p>&larr; <a @click="handleError()">Zurück zur Startseite</a></p>
     </div>
     <AppFooter />
   </div>
