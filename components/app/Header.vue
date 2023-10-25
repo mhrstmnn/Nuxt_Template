@@ -12,6 +12,10 @@ header > h1 {
 
   & > a {
     color: unset;
+
+    &:hover {
+      border-bottom: none;
+    }
   }
 }
 </style>
