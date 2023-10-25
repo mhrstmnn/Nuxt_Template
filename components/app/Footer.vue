@@ -7,7 +7,7 @@ import Package from '../../package.json'
     <p class="mb-0 font-light leading-relaxed">
       Version: {{ Package.version }}
       <br />
-      Theme: <ToggleColorMode class="font-light" />
+      Theme: <SelectColorMode class="font-light" />
       <br />
       <br />
       &copy; {{ new Date().getFullYear() }}
