@@ -27,9 +27,9 @@ const handleError = () => clearError({ redirect: '/' })
 </script>
 
 <template>
-  <div id="app">
+  <div id="app" class="m-10">
     <AppHeader />
-    <div id="error">
+    <div id="error" class="xl:text-xl">
       <h2>{{ errorMessage.title }}</h2>
       <p>{{ errorMessage.paragraph }}</p>
       <p>&larr; <a @click="handleError()">Zurück zur Startseite</a></p>

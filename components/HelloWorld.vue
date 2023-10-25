@@ -8,5 +8,9 @@ const props = defineProps({
 </script>
 
 <template>
-  <p>{{ props.name ? 'Hallo' : 'Hello' }} {{ props.name ?? 'World' }}</p>
+  <p>
+    <strong>HelloWorld-Component:</strong>
+    <br />
+    {{ props.name ? 'Hallo' : 'Hello' }} {{ props.name ?? 'World' }} … 👋🏻😄
+  </p>
 </template>

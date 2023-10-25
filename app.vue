@@ -33,7 +33,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <div id="app">
+  <div id="app" class="m-10">
     <AppHeader />
     <NuxtLayout>
       <NuxtPage />
@@ -41,9 +41,3 @@ useSeoMeta({
     <AppFooter />
   </div>
 </template>
-
-<style>
-#app {
-  font-size: 1.25rem;
-}
-</style>
