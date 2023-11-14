@@ -6,6 +6,7 @@ const description = 'Starter template for new Nuxt projects'
 const url = config.public.domain
 
 useHead({
+  htmlAttrs: { lang: 'de' },
   titleTemplate: (titleChunk) =>
     titleChunk ? `${titleChunk} – ${title}` : title,
   link: [
