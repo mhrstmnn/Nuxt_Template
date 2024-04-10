@@ -11,13 +11,13 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^3.3.0",
-    "@unocss/nuxt": "^0.57.4",
-    "@unocss/preset-typography": "^0.57.4",
+    "@nuxtjs/color-mode": "^3.3.3",
+    "@unocss/nuxt": "^0.59.0",
+    "@unocss/preset-typography": "^0.59.0",
     "husky": "^8.0.3",
-    "lint-staged": "^15.1.0",
-    "nuxt": "^3.8.1",
-    "prettier": "^3.1.0"
+    "lint-staged": "^15.2.2",
+    "nuxt": "^3.11.2",
+    "prettier": "^3.2.5"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
