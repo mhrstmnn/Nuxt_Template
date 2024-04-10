@@ -1,7 +1,7 @@
 <template>
   <header>
     <h1 class="mt-0 mb-6 xl:mb-8 font-extrabold xl:text-4xl">
-      <NuxtLink to="/">Nuxt Starter</NuxtLink>
+      <NuxtLink to="/">Nuxt Template</NuxtLink>
     </h1>
   </header>
 </template>

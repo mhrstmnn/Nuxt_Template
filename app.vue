@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const config = useRuntimeConfig()
 
-const title = 'Nuxt Starter'
-const description = 'Starter template for new Nuxt projects'
+const title = 'Nuxt Template'
+const description = 'Template for new Nuxt projects'
 const url = config.public.domain
 
 useHead({

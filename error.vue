@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const title = 'Nuxt Starter'
+const title = 'Nuxt Template'
 useHead({ title: `Fehler – ${title}` })
 
 const props = defineProps({
